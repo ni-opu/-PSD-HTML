@@ -1,0 +1,356 @@
+/*all start*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ol,
+ul {
+    list-style-type: none;
+}
+img {
+    vertical-align: middle;
+}
+.wrapper_full {
+    width: 100%;
+    overflow: hidden;
+}
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+.clr {
+    clear: both;
+}
+/*all end*/
+
+/*header start*/
+.header {
+    background: #f6f9f9;
+    padding: 11px 0;
+    position: fixed;
+    z-index: 1;
+}
+.logo {
+    width: 154px;
+    float: left;
+}
+.logo_img {
+    width: 34px;
+    float: left;
+}
+.logo_img img {
+    width: 100%;
+}
+.logo_text {
+    width: 104px;
+    margin-left: 16px;
+    float: right;
+}
+.logo_text p {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2d3950;
+    text-transform: uppercase;
+}
+.menu {
+    float: right;
+    padding: 14px 0 12px;
+}
+.menu ul {
+    float: left;
+}
+.menu ul li {
+    float: left;
+}
+.menu ul li a {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #252525;
+    text-transform: uppercase;
+    padding-left: 36px;
+    transition: 0.4s;
+}
+/*header end*/
+
+/*banner start*/
+.banner {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: scale(1);
+    color: #ffffff;
+    text-align: center;
+    padding: 218px 0 90px;
+}
+.banner_headline {
+    padding-bottom: 26px;
+}
+.banner_headline h1 {
+    font-size: 120px;
+}
+.underline {
+    margin: 0 auto;
+    width: 600px;
+    height: 2px;
+    background: #15a4fa;
+}
+.banner_text {
+    padding: 40px 0 66px;
+}
+.banner_text p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.banner_button {
+    margin: 0 auto;
+    width: 175px;
+    padding: 20px 0;
+    border: 1px solid #15a4fa;
+}
+.banner_button a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.banner_icon a img {
+    padding-top: 176px;
+}
+/*banner end*/
+
+/*about start*/
+.about {
+    background: #f6f9f9;
+    padding: 78px 0 100px;
+    text-align: center;
+}
+.about_heading h3 {
+    font-size: 41px;
+    font-weight: 400;
+    color: #2d3950;
+    padding-bottom: 30px;
+}
+.about_text p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 1.6;
+}
+/*about end*/
+
+/*service start*/
+.service {
+    padding: 66px 0;
+}
+.service_item {
+    width: 286px;
+    margin-right: 51px;
+    float: left;
+    text-align: center;
+}
+.service_icon {
+    width: 100px;
+    margin: 0 auto;
+    padding: 30px 0;
+    background: linear-gradient(90deg, #48baff 50%, #5fc3ff 50%);
+    font-size: 35px;
+}
+.service_icon i {
+    color: #ffffff;
+}
+.service_item h5 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #2d3950;
+    padding: 30px 0 24px;
+}
+.service_item p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    line-height: 1.5;
+}
+.lt {
+    margin-right: 0;
+}
+/*service end*/
+
+/*portfolio start*/
+.portfolio {
+    padding: 80px 0 115px;
+    text-align: center;
+    background: #f6f9f9;
+}
+.portfolio_heading h5{
+    font-size: 41px;
+    font-weight: 400;
+    color: #2d3950;
+    padding-bottom: 18px;
+}
+.portfolio_details p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #909090;
+}
+.portfolio_img {
+    padding-top: 55px;
+}
+.portfolio_img_item{
+    width: 300px;
+    margin: 20px 10px 0;
+    float: left;
+    position: relative;
+}
+.portfolio_img_item img {
+    width: 100%;
+}
+.portfolio_img_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0;
+    width: 100%;
+    background: rgba(93, 54, 202, 0.6);
+    transition: 0.4s;
+    opacity: 0;
+}
+.portfolio_img_item:hover .portfolio_img_overlay{
+    height: 100%;
+    opacity: 1;
+    
+}
+.portfolio_img_overlay a{
+    color: #fff;
+    text-align: right;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.portfolio_img_overlay a i{
+    position: absolute;
+    line-height: 40px;
+    padding: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+}
+/*portfolio end*/
+
+/*contact start*/
+.contact {
+    padding: 75px 0 110px;
+    text-align: center;
+    background: url(../images/contact-bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: scale(1);
+}
+.contact_heading h5{
+    font-size: 41px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 18px;
+}
+.contact_details p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    padding-bottom: 50px;
+}
+.form {
+    width: 550px;
+    margin: 0 auto;
+}
+.form form input[type=text] {
+    background: transparent;
+    width: 100%;
+    border: 1px solid #999999;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    padding: 25px 0 25px 21px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+}
+.form form textarea {
+    background: transparent;
+    width: 100%;
+    height: 160px;
+    margin-bottom: 20px;
+    padding: 25px 0 0 21px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    border: 1px solid #999999;
+    border-radius: 2px;
+    resize: none;
+}
+.lt-row-form {
+    width: 100%;
+}
+.checkbox {
+    float: left;
+    padding-top: 15px;
+}
+.checkbox label {
+    margin-left: 14px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.lt-row-form input[type=submit] {
+    background: transparent;
+    width: 140px;
+    float: right;
+    margin-right: 0;
+    padding: 16px 50px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    border: 1px solid #999999;
+    border-radius: 2px;
+}
+.lt-row-form input[type=submit]:hover {
+    border: 1px solid #15a4fa;
+    border-radius: 2px;
+    cursor: pointer;
+}
+/*contact end*/
+
+/*footer start*/
+.footer {
+    padding: 18px 0;
+}
+.footer-text {
+    padding: 15px 0;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+}
+.footer-icon {
+    float: right;
+}
+.footer-icon i {
+    margin-left: 5px;
+    padding: 15px;
+    background: #15a4fa;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 2px;
+}
+/*footer end*/

@@ -1,0 +1,355 @@
+/*body start*/
+body {
+    margin: 0;
+    padding: 0;
+}
+/*body end*/
+
+/*heard start*/
+header {
+    padding: 0;
+}
+.top_header {
+    background-color: #535d69;
+}
+.wrapper {
+    width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.text {
+    width: 25%;
+    float: left;
+    margin: 10px 0;
+}
+.text p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+.icon {
+    width: 65%;
+    margin: 10px 0;
+    float: left;
+
+}
+.icon img{
+    float: right;
+    width: 25px;
+    height: 25px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.login {
+    width: 10%;
+    float: right;
+    background-color: #bd233f;
+    margin: 0;
+    padding: 11px 0;
+}
+.login a {
+    width: 100px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: #bd233f;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+    transition: .3s;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+.logo {
+    width: 20%;
+    float: left;
+}
+.logo img {
+    width: 100%;    
+}
+
+.menu {
+    width: 80%;
+    float: right;
+    margin-top: 15px;
+}
+.menu ul {
+    float: right;
+    
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+.menu ul li a {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #535d69;
+    text-decoration: none;
+    padding: 0 11px;
+    display: inline-block;
+    transition: .3s;
+}
+.menu ul li:last-child a {
+    padding-right: 0;
+}
+.menu ul li a:hover {
+    color: #bd233f;
+}
+/*header end*/
+
+/*banner start*/
+.banner {
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.b_content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 50%;
+}
+.b_content h1 {
+    font-family: sans-serif;
+    font-size: 66px;
+    color: white;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.b_content p {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.b_content button {
+    width: 260px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #b7213e;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.b_content button:focus {
+    outline: 0;
+}
+/*banner end*/
+
+/*how it works start*/
+.first_part {
+    width: 70%;
+    margin: 0 auto;
+    padding: 5%;
+    text-align: center;
+    font-family: sans-serif;
+}
+.first_part h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+.first_part p {
+    font-size: 16px;
+    color: #535d69;
+    line-height: 23px;
+    margin: 0;
+}
+.second_part {
+    overflow: hidden;
+    margin: 5% 0;
+}
+.single_item {
+    width: 23%;
+    text-align: center;
+    float: left;
+    padding: 5%;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+.single_item img {
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+}
+/*how it works end*/
+
+/*learn the process start*/
+.learn_process {
+    background-color: #fafafa;
+    overflow: hidden;
+    padding: 5% 0;
+}
+.description {
+    width: 47%;
+    float: left;
+    margin-right: 3%;
+    font-family: sans-serif;
+}
+.description h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+}
+.description p {
+    font-size: 17px;
+    color: #535d69;
+    line-height: 23px;
+    margin: 0;
+}
+.description button {
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+    background-color: #b7213e;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.video {
+    width: 47%;
+    float: left;
+    margin-left: 3%;
+}
+/*learn the process end*/
+
+/*features start*/
+.features {
+    overflow: hidden;
+    padding: 5% 0;
+    margin: 0 auto;
+}
+.single_item_features {
+    width: 15%;
+    text-align: center;
+    float: left;
+    padding: 5%;
+    margin: 3% 0 0 6%;
+    font-family: sans-serif;
+    border: 3px solid #f1f1f1;
+    cursor: pointer;
+}
+.single_item_features img {
+    width: 20%;
+}
+.button button {
+    margin: 0 42%;
+    width: 16%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #b7213e;
+    background-color: rgb(240, 232, 232);
+    text-transform: uppercase;
+    cursor: pointer;
+    border: rgb(245, 242, 237);
+}
+/*features end*/
+
+/*top footer part start*/
+.top_footer {
+    background-color: #090909;
+}
+.column {
+    width: 23%;
+    padding: 2%;
+    margin: 2.9%;
+    float: left;
+    font-family: sans-serif;
+}
+.column h3 {
+    color: #b7213e;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+}
+.contact_us p {
+    font-size: 14px;
+    color: #535d69;
+    line-height: 2px;
+}
+.contact_us p img {
+    width: 20px;
+    height: 20px;
+}
+.social {
+    width: 100%;
+    margin-top: 15%;
+}
+.social img {
+    width: 10%;
+}
+.list ul {
+    list-style: none;
+    list-style-image: url(images/list_marker.jpg);
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.list ul li {
+    margin: 5% 0;
+}
+.list ul li a {
+    text-decoration: none;
+    color: #535d69;
+}
+.list ul li a:hover {
+    color: #bd233f;
+}
+.newsletter p {
+    font-size: 14px;
+    color: #535d69;
+    margin-bottom: 15%;
+}
+.newsletter input {
+    width: 50%;
+    background-color: #090909;
+    color: #535d69;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    float: left;
+    border: 1px solid #535d69;
+}
+.newsletter button {
+    width: 39%;
+    height: 40px;
+    float: left;
+    background-color: #bd233f;
+    color: white;
+    padding: 0;
+    border: 1px solid #bd233f;
+    border-left: none;
+    cursor: pointer;
+}
+/*top footer part end*/
+
+/*footer start*/
+.footer {
+    height: 20%;
+    background-color: #535d69;
+    color: white;
+    margin: 0;
+}
+.footer p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 3%;
+}
+/*footer end*/

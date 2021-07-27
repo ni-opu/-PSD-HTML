@@ -1,1 +1,1 @@
-go live::: https://ni-opu.github.io/-PSD-HTML/portfolio/index.html
+go live::: https://ni-opu.github.io/psd-html/portfolio/index.html

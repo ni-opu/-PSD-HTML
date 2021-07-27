@@ -98,16 +98,10 @@ img {
     font-size: 16px;
     text-transform: capitalize;
 }
+
+.menu ul li.active a,
 .menu ul li a:hover {
     background: #f18d26;
-}
-
-.menu ul li a:active {
-    background: #f18d26;
-}
-
-.social_icon {
-    float: right;
 }
 
 .social_icon a i {

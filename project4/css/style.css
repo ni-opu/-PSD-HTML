@@ -1,0 +1,613 @@
+/*all start*/
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.wrapper_full {
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+h4.common_heading {
+    font-size: 25px;
+    font-weight: 400;
+    color: #004b8d;
+}
+
+p.common_text {
+    font-size: 14px;
+    color: #4f4f4f;
+    line-height: 1.4;
+}
+
+.more {
+    width: 104px;
+    overflow: hidden;
+    box-shadow: 1.5px 1.5px 1.5px #241527;
+}
+
+.more a {
+    float: left;
+    width: 70px;
+    font-size: 14px;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #5c5c5c, #828282);
+    padding: 6px 5px;
+    box-shadow: -1.5px -1.5px 1.5px #7c7c7c;
+    border-right: none;
+}
+
+.more i {
+    float: right;
+    width: 20px;
+    background: #91549d;
+    box-shadow: -1.5px -1.5px 1.5px #a777b1;
+    font-size: 16.5px;
+    color: #ffffff;
+    text-align: center;
+    padding: 6px 2px;
+    cursor: pointer;
+}
+
+
+/*all end*/
+
+
+/*header start*/
+
+.header {
+    padding: 15px 0;
+    background: #ffffff;
+}
+
+.logo {
+    width: 290px;
+    float: left;
+}
+
+.logo img {
+    float: left;
+}
+
+.info {
+    float: right;
+    text-align: right;
+    font-size: 13px;
+    color: #414141;
+}
+
+p.lang {
+    padding: 5px;
+    border: 1px solid #c0c0c0;
+}
+
+p.lang img {
+    padding-right: 10px;
+}
+
+p.lang i {
+    padding-left: 14px;
+    color: #075aa1;
+}
+
+p.email {
+    padding: 7px 0;
+}
+
+p.phone {
+    font-weight: 700;
+}
+
+.fa-caret-down {
+    cursor: pointer;
+}
+
+
+/*header end*/
+
+
+/*navbar start*/
+
+.navbar {
+    background: linear-gradient(#9d66a9 50%, #91549d 50%);
+    color: white;
+}
+
+.menu {
+    width: 700px;
+    padding: 30px 0;
+    float: left;
+}
+
+.menu ul {
+    float: left;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    padding: 30px 15px;
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.menu ul .active a,
+.menu ul li a:hover {
+    background: #713e7c;
+    box-shadow: inset 2px 2px #222222, inset -1px -1px 2px #9a75a2;
+}
+
+.search {
+    padding: 20px 0px;
+}
+
+.s_item {
+    width: 216px;
+    padding: 10px 20px;
+    float: right;
+    background: #8a4c97;
+    box-shadow: inset 2px 2px #222222, inset -1px -1px 2px #9a75a2;
+    border-radius: 20px;
+}
+
+.s_item input {
+    float: left;
+    border: none;
+    background: #8a4c97;
+}
+
+.s_item input::placeholder {
+    font-size: 16px;
+    color: white;
+}
+
+.s_item i {
+    float: right;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nav_bottom {
+    height: 5px;
+    background: #98ca48;
+}
+
+
+/*navbar end*/
+
+
+/*banner start*/
+
+#banner {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: scale(1);
+    padding-top: 64px;
+}
+
+.banner_content h1 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #252525;
+}
+
+.banner_content p {
+    font-size: 20px;
+    color: #252525;
+}
+
+.arrow {
+    padding: 75px 0 155px;
+    font-size: 40px;
+    font-weight: 400;
+    color: #4f4f4f;
+}
+
+.arrow i {
+    cursor: pointer;
+}
+
+i.left {
+    float: left;
+}
+
+i.right {
+    float: right;
+}
+
+.banner_bottom {
+    padding: 12px 0;
+    background: rgba(95, 98, 103, 0.5);
+}
+
+.bottom_text {
+    width: 500px;
+    margin-left: 5px;
+    float: left;
+    color: #ffffff;
+}
+
+.bottom_text h3 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.bottom_text p {
+    font-size: 18px;
+}
+
+.bottom_button {
+    width: 160px;
+    float: right;
+}
+
+.bottom_button a {
+    float: right;
+    margin: 6px 16px 6px 0;
+    padding: 12px;
+    background: linear-gradient(to right, #1a7eb9, #065298);
+    font-size: 16px;
+    color: #ffffff;
+    box-shadow: 1px 1px 1px #041627, -1px -1px 1px #539ec9;
+}
+
+.bottom_button i {
+    padding-left: 11px;
+    font-size: 20px;
+}
+
+
+/*banner end*/
+
+
+/*about start*/
+
+#about {
+    padding: 50px 0;
+}
+
+.welcome {
+    width: 622px;
+    margin-right: 48px;
+    float: left;
+}
+
+.welcome h4 {
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: 200;
+    color: #004b8d;
+}
+
+.welcome_img {
+    width: 240px;
+    float: left;
+}
+
+.welcome_text {
+    width: 382px;
+    float: left;
+}
+
+.welcome_text p {
+    padding-bottom: 45px;
+}
+
+.underline {
+    float: left;
+    width: 100%;
+    height: 2px;
+    background: #d7d7d7;
+}
+
+.testimonial {
+    width: 315px;
+    margin-left: 15px;
+    float: left;
+}
+
+.testimonial h4 {
+    padding: 7px 0;
+}
+
+.qoute_text {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0 100%);
+    background: #8a8a89;
+    width: 100%;
+    margin-top: 14px;
+}
+
+.qoute_text p {
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 200;
+    color: #ffffff;
+    line-height: 1.4;
+}
+
+.qoute_marker {
+    clip-path: polygon(100% 0, 100% 100%, 0 0);
+    width: 25px;
+    height: 20px;
+    background: #575757;
+}
+
+.person {
+    width: 100%;
+    padding: 20px 0 72px;
+}
+
+.person_img {
+    float: left;
+}
+
+.person_details {
+    float: right;
+    color: #353535;
+    padding: 12px 0 0 15px;
+}
+
+.person_details h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.person_details p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.marker {
+    width: 45px;
+    padding-top: 30px;
+    float: right;
+}
+
+
+/*about end*/
+
+
+/*about_bottom start*/
+
+.a2 {
+    padding: 50px 0;
+}
+
+.a_content {
+    margin-right: 50px;
+    width: 300px;
+    float: left;
+}
+
+.a_content:last-child {
+    margin-right: 0;
+}
+
+.top_part {
+    padding-bottom: 20px;
+}
+
+.top_part img {
+    float: left;
+    padding-right: 15px;
+}
+
+.top_part h4 {
+    padding: 15px 0;
+}
+
+.bottom_part p {
+    padding-bottom: 30px;
+}
+
+
+/*about_bottom end*/
+
+
+/*service start*/
+
+.service {
+    padding: 50px 0;
+}
+
+.s_content {
+    width: 300px;
+    margin-right: 50px;
+    float: left;
+}
+
+.s_content:last-child {
+    margin-right: 0;
+}
+
+.s_content h4 {
+    padding-bottom: 10px;
+}
+
+.s_underline {
+    width: 100%;
+    height: 1px;
+    background: #d7d7d7;
+    margin-bottom: 10px;
+}
+
+p.s_p {
+    font-size: 16px;
+}
+
+.s_content ul {
+    padding-top: 15px;
+}
+
+.s_content ul li {
+    padding-bottom: 12px;
+}
+
+.s_content ul li a {
+    font-size: 12px;
+    color: #4f4f4f;
+}
+
+.s_content ul li a i {
+    padding-right: 20px;
+    font-size: 15px;
+    color: #8cc63e;
+}
+
+.news {
+    padding: 15px 0;
+}
+
+.news h5 {
+    font-size: 14px;
+    color: #1866aa;
+}
+
+.news a {
+    font-size: 13px;
+    color: #1866aa;
+}
+
+/*service end*/
+
+
+/*newsletter start*/
+.newsletter {
+    padding-bottom: 70px;
+}
+
+.n_text {
+    width: 220px;
+    float: left;
+}
+
+p.f_line {
+    font-size: 22px;
+    color: #1866aa;
+}
+
+p.l_line {
+    font-size: 30px;
+    color: #1866aa;
+}
+
+.form {
+    float: right;
+}
+
+.form input {
+    width: 280px;
+    margin-right: 8px;
+    padding: 20px 0 20px 15px;
+    background: #f9f9f4;
+    border: 1px solid #e1e1de;
+    border-radius: 5px;
+}
+
+.form input::placeholder {
+    font-size: 13px;
+    color: #919191;
+}
+
+.form button {
+    width: 140px;
+    padding: 20px;
+    background: #1b67a9;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*newsletter end*/
+
+/*topfooter start */
+.top_footer {
+    padding: 50px 0;
+    background: #3e3e3e;
+}
+
+.tf_content{
+    float: left;
+    color: #d1d1d1;
+}
+
+.tf_content p.heading {
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.tf_content ul li {
+    padding-bottom: 14px;
+    font-size: 13px;
+}
+
+.tf_content ul li i{
+    padding-right: 14px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.ver {
+    padding: 0 40px;
+}
+
+.lt {
+    float: right;
+}
+
+/*topfooter end*/
+
+/*footer start*/
+
+.footer {
+    padding: 25px 0;
+    background: #282828;
+}
+
+.footer p {
+    font-size: 13px;
+    font-weight: 200;
+    color: #cacaca;
+}
+
+
+/*footer end*/
